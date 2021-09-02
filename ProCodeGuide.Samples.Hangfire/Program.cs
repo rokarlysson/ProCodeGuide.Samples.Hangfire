@@ -13,6 +13,7 @@ namespace ProCodeGuide.Samples.Hangfire
     {
         public static void Main(string[] args)
         {
+            Environment.SetEnvironmentVariable("ORACLE_HOME", "C:\\app\\Infomed\\product\\11.2.0\\client_1");
             CreateHostBuilder(args).Build().Run();
         }
 
